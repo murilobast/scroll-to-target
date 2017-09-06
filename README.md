@@ -1,6 +1,6 @@
 # scroll-to-target (scrollToTarget)
 
-Simple, small, reliable pure javascript scroll library wich scroll you to a target element on the page by it's selector. 
+Simple, small, reliable and pure javascript scroll library.
 
 [![NPM](https://nodei.co/npm/scroll-to-target.png)](https://nodei.co/npm/scroll-to-target/)
 
