@@ -5,7 +5,7 @@ module.exports = {
 	input: 'src/index.js',
 	output: {
 		file: 'index.js',
-		format: 'iife',
+		format: 'umd',
 		name: 'scrollToTarget'
 	},
 	plugins: [
