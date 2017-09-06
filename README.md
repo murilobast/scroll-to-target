@@ -10,14 +10,17 @@ scrollToTarget(selector, speed, offset)
 ```
 ###### name : *string*
 > A valid dom selector 
+> 
 > *Required*
 
 ###### speed : *number*
 > Scroll duration in milliseconds 
+> 
 > *Optional, defaults to: 300 {ms}*
 
 ###### offset : *number*
 > Space in pixels between the target element and the window top.
+> 
 > *Optional, defaults to: 0 {pixels}*
 
 
