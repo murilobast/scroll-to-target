@@ -7,8 +7,9 @@ import getNextPosition from './getNextPosition'
 
 const animateWithRequestAnimationFrame = (position, stepSize) => {
 	const nextPosition = getNextPosition(position, stepSize)
+	const maxPosition = document.body.scrollHeight - window.innerHeight
 	window.scrollTo(0, nextPosition)
-	if (window.scrollTarget === position && nextPosition !== position)
+	if (window.scrollTarget === position && nextPosition <= maxPosition && nextPosition !== position)
 		return requestAnimationFrame(() => animateWithRequestAnimationFrame(position, stepSize))
 	delete window.scrollTarget
 }
